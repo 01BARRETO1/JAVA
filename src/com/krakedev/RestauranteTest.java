@@ -6,7 +6,7 @@ public class RestauranteTest {
 		Restaurante rest1= new Restaurante();
 		Restaurante rest2= new Restaurante();
 		
-		//System.out.println("-------------Restaurante 1 : Valores creados-----------");
+		//System.out.println("-------------Restaurante 1-----------");
 		
 		rest1.nombre="Palma";
 		
@@ -14,7 +14,7 @@ public class RestauranteTest {
 		
 		rest1.calificacion=9.8;
 		
-		//System.out.println("-------------Restaurante 2 : Valores creados-----------");
+		//System.out.println("-------------Restaurante 2-----------");
 		
 		rest2.nombre="Coral";
 		
