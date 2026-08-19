@@ -10,32 +10,37 @@ public class VehiculoTest {
 		
 		System.out.println("-------------Vehiculo 1 : Creado----------------------------------");
 	
-		System.out.println("Anio: "+ v.anio);
-		System.out.println("Marca: "+ v.marca);
-		System.out.println("Modelo: "+ v.modelo);
+		System.out.println("Anio: "+ v.getAnio());
+		System.out.println("Marca: "+ v.getMarca());
+		System.out.println("Modelo: "+ v.getModelo());
 		
 		System.out.println("-------------Vehiculo 1 : Valores creados-----------");
 		
-		v.anio="2024";
-		v.marca="Zusuqui";
-		v.modelo="Nuevo";
+		v.setAnio("2024");
+		v.setMarca("Zusuqui");
+		v.setModelo("Nuevo");
 		
-		System.out.println("Anio: "+ v.anio);
-		System.out.println("Marca: "+ v.marca);
-		System.out.println("Modelo: "+ v.modelo);
+		System.out.println("Anio: "+ v.getAnio());
+		System.out.println("Marca: "+ v.getMarca());
+		System.out.println("Modelo: "+ v.getModelo());
 		
 		System.out.println("-------------Vehiculo 2 : Creado-----------");
 		
 		Vehiculo v2= new Vehiculo();
+		
+		System.out.println("Anio: "+ v2.getAnio());
+		System.out.println("Marca: "+ v2.getMarca());
+		System.out.println("Modelo: "+ v2.getModelo());
+		
 		System.out.println("-------------Vehiculo 2 : Valores creados-----------");
 		
-		v2.anio="2026";
-		v2.marca="chevrolet";
-		v2.modelo="Mas rapido";
+		v2.setAnio("2026");
+		v2.setMarca("chevrolet");
+		v2.setModelo("Mas rapido");
 		
-		System.out.println("Anio: "+ v2.anio);
-		System.out.println("Marca: "+ v2.marca);
-		System.out.println("Modelo: "+ v2.modelo);
+		System.out.println("Anio: "+ v2.getAnio());
+		System.out.println("Marca: "+ v2.getMarca());
+		System.out.println("Modelo: "+ v2.getModelo());
 	}
 
 }

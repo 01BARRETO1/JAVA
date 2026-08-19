@@ -9,8 +9,10 @@ public class TestRectangulo {
 		
 		//Valores del metodo calcularArea. valores en los atributos, valores de la clase rectangulo
 		
-		r1.base=7;
-		r1.altura=5;
+//		r1.base=7;
+//		r1.altura=5;
+		r1.setBase(7);
+		r1.setAltura(5);
 		
 		
 		//Guardamos el resultado en una variable resultadoArea, 
@@ -19,14 +21,16 @@ public class TestRectangulo {
 		
 		int resultadoArea = r1.calcularArea();
 		
-		System.out.println("El area del rectangulo con base "+r1.base+" y altura "+r1.altura+" es: " + resultadoArea);
+		System.out.println("El area del rectangulo con base "+r1.getBase()+" y altura "+r1.getAltura()+" es: " + resultadoArea);
 		
 		//-------
 		
 		Rectangulo r2 = new Rectangulo();
 		
-		r2.altura=8;
-		r2.base=2;
+//		r2.altura=8;
+//		r2.base=2;
+		r2.setBase(8);
+		r2.setAltura(2);
 		
 		int resultadoArea2=r2.calcularArea();
 		
@@ -38,8 +42,10 @@ public class TestRectangulo {
 		//instancia de clase rectangulo para calcular el perimetro
 		Rectangulo p=new Rectangulo();
 		//valores de la clase Rectangulo, para calcular el perimetro
-		p.altura=2;
-		p.base=4;
+//		p.altura=2;
+//		p.base=4;
+		p.setBase(4);
+		p.setAltura(2);
 		//Guardamos el resultado en una variable resultadoPerimetro
 		
 		double resultadoPerimetro;

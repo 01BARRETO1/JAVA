@@ -10,9 +10,9 @@ public class TestCuadrado {
 		
 		//valores de los cuadrados
 		
-		c1.lado=4;
-		c2.lado=6;
-		c3.lado=3;
+		c1.setLado(4);
+		c2.setLado(6);
+		c3.setLado(3);
 		
 		//variabes para calcular area y perimetro, testear
 		
@@ -27,13 +27,13 @@ public class TestCuadrado {
 		
 		//Mostrar resultados
 		
-		System.out.println("El area del cuadrado de lado "+c1.lado+" es "+
+		System.out.println("El area del cuadrado de lado "+c1.getLado()+" es "+
 		areaCuadrado1 +" y su perimetro es "+perimetroCuadrado1);
 		
-		System.out.println("El area del cuadrado de lado "+c2.lado+" es "+
+		System.out.println("El area del cuadrado de lado "+c2.getLado()+" es "+
 		areaCuadrado2 +" y su perimetro es "+perimetroCuadrado2);
 		
-		System.out.println("El area del cuadrado de lado "+c3.lado+" es "+
+		System.out.println("El area del cuadrado de lado "+c3.getLado()+" es "+
 		areaCuadrado3 +" y su perimetro es "+perimetroCuadrado3);		
 	}
 
