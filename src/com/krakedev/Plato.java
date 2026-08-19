@@ -7,6 +7,27 @@ public class Plato {
 	private double precio;
 	private boolean disponible;
 	
+	//generar constructor 1 con dos parametros
+	public Plato(String nombre, boolean disponible) {
+		this.nombre=nombre;
+		this.disponible=disponible;
+	}
+	
+	//generar constructor 2 con tres parametros
+		public Plato(String nombre, String tipo, double precio) {
+			this.nombre=nombre;
+			this.tipo=tipo;
+			this.precio=precio;
+		}
+		
+	//generar constructor 2 con 1 parametro
+		public Plato(boolean disponible) {
+			
+			this.disponible=disponible;
+		}
+		
+		
+	
 	//get and set
 	public String getNombre() {
 		return nombre;

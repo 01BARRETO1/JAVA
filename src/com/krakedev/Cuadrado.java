@@ -3,6 +3,12 @@ package com.krakedev;
 public class Cuadrado {
 	private int lado;
 	
+	//generar constructor
+	public Cuadrado(int lado) {
+		this.lado=lado;
+	}
+	
+	
 	//----get seting
 	
 	public int getLado() {

@@ -5,10 +5,11 @@ public class PlatoTest {
 	public static void main(String[] args) {
 		
 		//Crear 3 variables de tipo Plato,
+		//Se modifica con metodo constructor  TALLER: DOMINIO DE CONSTRUCTORES 19/08/2026
 		
-		Plato platoA=new Plato();
-		Plato platoB=new Plato();
-		Plato platoC=new Plato();
+		Plato platoA=new Plato("Pastel de chocolate",true);
+		Plato platoB=new Plato("Bolonesa","fuerte",5.00);
+		Plato platoC=new Plato(true);
 		
 		//Instanciar 3 objetos y referecniarlos a las variables
 		//Modificar los atributos
@@ -17,10 +18,10 @@ public class PlatoTest {
 //		platoA.precio=2.50;
 //		platoA.disponible=true;
 		//
-		platoA.setNombre("Pastel de chocolate");
+		//platoA.setNombre("Pastel de chocolate");
 		platoA.setTipo("Postre");
 		platoA.setPrecio(2.50);
-		platoA.setDisponible(true);
+		//platoA.setDisponible(true);
 		
 		
 //		platoB.nombre="Bolonesa";
@@ -28,9 +29,9 @@ public class PlatoTest {
 //		platoB.precio=5.00;
 //		platoB.disponible=true;
 		
-		platoB.setNombre("Bolonesa");
-		platoB.setTipo("fuerte");
-		platoB.setPrecio(5.00);
+		//platoB.setNombre("Bolonesa");
+		//platoB.setTipo("fuerte");
+		//platoB.setPrecio(5.00);
 		platoB.setDisponible(true);
 		
 //		platoC.nombre="pan de ajo";
@@ -41,7 +42,7 @@ public class PlatoTest {
 		platoC.setNombre("pan de ajo");
 		platoC.setTipo("Entrada");
 		platoC.setPrecio(2.00);
-		platoC.setDisponible(true);
+		//platoC.setDisponible(true);
 		
 		System.out.println("### Plato A ###");
 		System.out.println("Nombre:"+ platoA.getNombre());

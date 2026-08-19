@@ -20,6 +20,36 @@ public class Calculadora {
 	//Funcion mostarrResultado
 	private String mesanje;
 	
+	//metodo constructor parametros suma y resta 
+	public Calculadora( int num1,  int num2) {
+		this.num1 = num1;
+		this.num2 = num2;
+		
+	}
+	
+	//metodo constructor parametros double --- multiplicacion, division, restaDouble, descuento
+		public Calculadora( double numd1,  double numd2) {
+			this.numd1 = numd1;
+			this.numd2 = numd2;
+			//division
+			this.dividiendo = numd1;
+			this.divisor = numd2;
+			//descuento
+			this.precio=numd1;
+			this.porcentajeDescuento=numd2;
+			
+		}
+	//metodo constructor parametros promediar 
+		public Calculadora( double valor1,  double valor2,  double valor3) {
+			
+			this.valor1 = valor1;
+			this.valor2 = valor2;
+			this.valor3 = valor3;
+		}
+		//metodo constructor parametros  -	mesanje
+		public Calculadora(String mesanje) {
+			this.mesanje = mesanje;
+		}
 	
 	
 	//--GET AND SET
